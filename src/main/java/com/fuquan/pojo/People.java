@@ -3,6 +3,7 @@ package com.fuquan.pojo;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 
+import java.text.MessageFormat;
 import java.util.List;
 import java.util.Map;
 
@@ -47,5 +48,10 @@ public class People {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return MessageFormat.format("name:{} age:{} frineds:{}", name, age, friends);
     }
 }
