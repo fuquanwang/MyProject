@@ -1,6 +1,5 @@
 package com.fuquan.utils;
 
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fuquan.pojo.People;
 import org.junit.Test;
 
